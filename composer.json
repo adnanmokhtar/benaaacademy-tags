@@ -1,0 +1,23 @@
+{
+    "name": "benaaacademy/tags",
+    "description": "The tags plugin of benaaacademy/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "benaaacademy",
+        "tags"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "benaaacademy/platform": "0.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benaaacademy\\Tags\\": "src"
+        }
+    }
+}
